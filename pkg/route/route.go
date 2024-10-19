@@ -1,13 +1,13 @@
 package route
 
 import (
-	"api/internal/route/group"
+	group2 "api/pkg/route/group"
 	"github.com/gofiber/fiber/v2"
 )
 
 func InitializeRoutes(app *fiber.App) {
 
-	group.RouteGroupUser(app)
-	group.RouteGroupProduct(app)
+	group2.RouteGroupUser(app)
+	group2.RouteGroupProduct(app)
 
 }
