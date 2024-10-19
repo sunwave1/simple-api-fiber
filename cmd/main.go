@@ -1,8 +1,8 @@
 package main
 
 import (
+	"api/internal/route"
 	"api/pkg/config"
-	"api/pkg/route"
 	"github.com/gofiber/fiber/v2"
 )
 
